@@ -1,6 +1,27 @@
-prompt = "Enter a todo: "
+from nis import match
 
 
+
+
+
+
+
+todos = []
 
 while True:
-    todo1 = input(prompt)
+    user_action = input("Type add, show or exit: ")
+    user_action = user_action.strip()
+    match user_action:
+        case 'add':
+            todo = input("Enter a todo: ")
+            todos.append(todo)
+        case 'show':
+            for i in todos:
+                print(i)
+        
+        case 'exit':
+            break
+    
+    
+   
+   

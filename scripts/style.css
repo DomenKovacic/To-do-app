@@ -1,0 +1,21 @@
+.container{
+  
+  position: relative;
+  background-color: gainsboro;
+  border: solid 2px;
+  height: 500px;
+  max-width: 100%; 
+
+}
+
+input{
+ margin: 10px;
+  
+}
+
+button{
+  background-color: darkcyan;
+  color: aliceblue;
+  text-align: center;
+  
+}
